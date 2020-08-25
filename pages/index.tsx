@@ -1,7 +1,8 @@
 //import Head from 'next/head'
 
-import {Heading, Grid, Flex, Input, Link, Button, Text} from '@chakra-ui/core';
+import {Heading, Grid, Flex, Link, Button, Text} from '@chakra-ui/core';
 import Divider from '../components/Divider';
+import Input from '../components/Input';
 
 export default function Home() {
   return(
@@ -36,19 +37,11 @@ export default function Home() {
         padding={16}
       >
 
-        <Input 
-          height="50px"
-          backgroundColor="gray.800"
-          focusBorderColor="purple.500"
-          borderRadius="sm"
+        <Input
           placeholder="E-mail"
         />
 
-        <Input 
-          height="50px"
-          backgroundColor="gray.800"
-          focusBorderColor="purple.500"
-          borderRadius="sm"
+        <Input
           placeholder="Senha"
           marginTop={2}
         />
