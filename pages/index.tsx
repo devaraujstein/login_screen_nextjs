@@ -20,9 +20,9 @@ export default function Home() {
       alignItems="center"
     >
       <Flex gridArea="logo" flexDir="column" alignItems="flex-start">
-        <img src="/rocketseat.svg" alt="RocketSeat"/>
+        <img src="/logo.png" alt="RocketSeat"/>
 
-        <Heading size="2xl" lineHeight="shorter" marginTop={16}> 
+        <Heading size="2xl" lineHeight="shorter"> 
           Faça seu login na plataforma
         </Heading>
       </Flex>
